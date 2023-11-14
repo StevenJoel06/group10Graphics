@@ -13,6 +13,6 @@ Choose or create a 3D model of a car. You can use existing models available onli
 ### 3. Implement Basic HTML Structure
 Set up the basic HTML structure for the project, linking the necessary CSS and JavaScript files. Create a canvas element where the 3D scene will be rendered.
 
-### 4. Set Up WebGL and Three.js
+### 4. Set Up and Three.js
 In the JavaScript file, set up WebGL and use the Three.js library for simplified 3D graphics
 
