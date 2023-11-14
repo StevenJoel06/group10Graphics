@@ -5,7 +5,7 @@ The goal of this project is to create a web-based application that utilizes ray 
 
 ## Implementation Steps
 ### 1. Set Up the Project Structure
-Start by organizing the project files and folders. Create the necessary HTML, CSS, and JavaScript files. Consider using a web development framework or build the structure manually.
+Start by organizing the project files and folders. 
 
 
 
