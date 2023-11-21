@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\RaydriveC1.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\RaydriveC1.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\RaydriveC1Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.editorconfig" />
+    <None Include="..\..\.vsconfig" />
+    <None Include="..\..\shadertoolsconfig.json" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\RaydriveC1">
+      <UniqueIdentifier>{F23E2706-C63A-3F1D-87B8-0A3B52274D66}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\RaydriveC1\RaydriveC1.Build.cs">
+      <Filter>Source\RaydriveC1</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\RaydriveC1\RaydriveC1.cpp">
+      <Filter>Source\RaydriveC1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RaydriveC1\RaydriveC1.h">
+      <Filter>Source\RaydriveC1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RaydriveC1\RaydriveC1GameMode.cpp">
+      <Filter>Source\RaydriveC1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RaydriveC1\RaydriveC1GameMode.h">
+      <Filter>Source\RaydriveC1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RaydriveC1\RaydriveC1OffroadCar.cpp">
+      <Filter>Source\RaydriveC1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RaydriveC1\RaydriveC1OffroadCar.h">
+      <Filter>Source\RaydriveC1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RaydriveC1\RaydriveC1OffroadWheelFront.cpp">
+      <Filter>Source\RaydriveC1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RaydriveC1\RaydriveC1OffroadWheelFront.h">
+      <Filter>Source\RaydriveC1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RaydriveC1\RaydriveC1OffroadWheelRear.cpp">
+      <Filter>Source\RaydriveC1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RaydriveC1\RaydriveC1OffroadWheelRear.h">
+      <Filter>Source\RaydriveC1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RaydriveC1\RaydriveC1Pawn.cpp">
+      <Filter>Source\RaydriveC1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RaydriveC1\RaydriveC1Pawn.h">
+      <Filter>Source\RaydriveC1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RaydriveC1\RaydriveC1PlayerController.cpp">
+      <Filter>Source\RaydriveC1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RaydriveC1\RaydriveC1PlayerController.h">
+      <Filter>Source\RaydriveC1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RaydriveC1\RaydriveC1SportsCar.cpp">
+      <Filter>Source\RaydriveC1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RaydriveC1\RaydriveC1SportsCar.h">
+      <Filter>Source\RaydriveC1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RaydriveC1\RaydriveC1SportsWheelFront.cpp">
+      <Filter>Source\RaydriveC1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RaydriveC1\RaydriveC1SportsWheelFront.h">
+      <Filter>Source\RaydriveC1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RaydriveC1\RaydriveC1SportsWheelRear.cpp">
+      <Filter>Source\RaydriveC1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RaydriveC1\RaydriveC1SportsWheelRear.h">
+      <Filter>Source\RaydriveC1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RaydriveC1\RaydriveC1UI.cpp">
+      <Filter>Source\RaydriveC1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RaydriveC1\RaydriveC1UI.h">
+      <Filter>Source\RaydriveC1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RaydriveC1\RaydriveC1WheelFront.cpp">
+      <Filter>Source\RaydriveC1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RaydriveC1\RaydriveC1WheelFront.h">
+      <Filter>Source\RaydriveC1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RaydriveC1\RaydriveC1WheelRear.cpp">
+      <Filter>Source\RaydriveC1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RaydriveC1\RaydriveC1WheelRear.h">
+      <Filter>Source\RaydriveC1</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "RaydriveC1",
+			"Path": "..\\Source\\RaydriveC1.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "RaydriveC1Editor",
+			"Path": "..\\Source\\RaydriveC1Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
