@@ -1,1 +1,11 @@
-*output
+Win64/
+Binaries/
+# Ignore temporary build artifacts
+/Build/
+
+# Ignore intermediate files generated during compilation and packaging
+/Intermediate/
+
+#You may regenerate this file if you chose to create a human character.
+ThirdPerson/
+
