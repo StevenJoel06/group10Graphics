@@ -1,11 +1,11 @@
 Win64/
 Binaries/
 # Ignore temporary build artifacts
-/Build/
+Build/
 
 # Ignore intermediate files generated during compilation and packaging
-/Intermediate/
+Intermediate/
 
-#You may regenerate this file if you chose to create a human character.
+#You may regenerate this file if you choose to create a human character.
 ThirdPerson/
 
