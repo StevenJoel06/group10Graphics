@@ -5,8 +5,8 @@ The goal of this project is to create an application that utilizes ray tracing t
 
 This will be available for a handful of environments.
 
-The game demonstrates various concepts such as ray-tracing elements such as shadows, reflections and motion blurring.
-It also implements a robust physics engine that accurately simulates real-world car behavior, including acceleration, braking, cornering, and suspension dynamics and weight transfer.
+The game demonstrates various concepts such as ray-tracing elements such as shadows, reflections, and motion blurring.
+It also implements a robust physics engine that accurately simulates real-world car behavior, including acceleration, braking, cornering, suspension dynamics, and weight transfer.
 
 
 ## Table of Contents
@@ -41,7 +41,7 @@ Open the project in Unreal Engine.
 ### Set Up Dependencies:
 
 Ensure that you have installed the necessary dependencies, including the NVIDIA PhysX SDK and the DirectX Raytracing SDK.
-You also need to configure Visual Studio for unreal engine by installing the necessary dependencies using visual studio 2022 installer
+You also need to configure Visual Studio for Unreal engine by installing the necessary dependencies using Visual Studio 2022 installer
 
 ### Build and Run the Project:
 
@@ -93,7 +93,7 @@ DefaultGraphicsRHI=DefaultGraphicsRHI_DX12 // Use DX12 for new rendering feature
 
 Licensed for use with the Unreal Engine only.
 1. Castle assets from the Unreal marketplace
-2. Various mega scans assets (You can change these to the ones you desire as they are mainly plants and foliage
-Without a custom license you cannot use to create sequels, remasters, or otherwise emulate the original game or use the original game’s trademarks, character names, or other IP to advertise or name your game. 
+2. Various mega scans assets (You can change these to the ones you desire as they are mainly plants and foliage)
+Without a custom license you cannot use it to create sequels, remasters, or otherwise emulate the original game or use the original game’s trademarks, character names, or other IP to advertise or name your game. 
 (Unreal Engine EULA applies) 
 (Please note this applies to the Game Assets that refer to Electric Dreams, you can still use the project code and content to build your own Unreal Engine game)
