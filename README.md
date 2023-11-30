@@ -16,7 +16,7 @@ It also implements a robust physics engine that accurately simulates real-world 
   - [Prerequisites](#prerequisites)
   - [Running the Game](#running-the-game)
 - [Technology Stack](#technology-stack)
-- [Optional Configs](##Optional Configs)
+- [Optional Configs](##optional-configs)
 
 
 ## Introduction
@@ -50,9 +50,9 @@ This will generate the necessary files for deployment to a web server.
 Once the project is built, click the "Play" button to launch the web-based car ray tracing experience in a standalone browser window.
 
 ## Prerequisites
-- Unreal Engine 5.1 or later.
-- Visual Studio 2022 set up for unreal engine
-- Quixel Bridge set up in Unreal Engine 
+- [Unreal Engine 5.1](https://www.unrealengine.com/en-US/download) or later.
+- [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/) set up for unreal engine
+- [Quixel Bridge](https://www.unrealengine.com/en-US/bridge) set up in Unreal Engine 
 - A basic understanding of C++ programming, as Unreal Engine's Blueprints visual scripting system is built upon C++ concepts.
 - Familiarity with ray tracing concepts and techniques.
 - A basic understanding of physics engines and their application in game development.
@@ -80,7 +80,7 @@ Once the project is built, click the "Play" button to launch the web-based car r
 ## Optional Configs
 
 First, open the project and under project settings change the Engines scalability settings to the one your computer can handle. With the release of UE5, some new rendering features have been enabled. For lower-end machines it may be required to turn these off. You can do so via the Project Settings. 
-Secondly, increase the texture streaming pool size from 1000 to 5000
+Secondly, increase the texture streaming pool size from 1000 to 5000.
 
 #### DefaultEngine.ini
 ```
