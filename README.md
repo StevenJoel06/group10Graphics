@@ -41,7 +41,7 @@ Open the project in Unreal Engine.
 ### Set Up Dependencies:
 
 Ensure that you have installed the necessary dependencies, including the NVIDIA PhysX SDK and the DirectX Raytracing SDK.
-Other necessary reqy=uirements: 
+You also need to configure Visual Studio for unreal engine by installing the necessary dependencies using visual studio 2022 installer
 
 ### Build and Run the Project:
 
@@ -69,15 +69,16 @@ Once the project is built, click the "Play" button to launch the web-based car r
 
 - **C++** : game implementation
 - **Blueprints** for visual scripting eg.
-  - Lumen
-  - PCG
-  - Auto Materials
+  - Lumen and Nanite for current-generation lighting and rendering
+  - Procedural Content Generation Blueprints
+  - Auto Material Blueprints
+  - Vehicle Blueprints
 - **C#:** for blueprints scripting and managing third-party plugins
 
-Feel free to reach out with any suggestions!
-
 ## Optional Configs
-With the release of UE5, some new rendering features have been enabled. For lower end machines it may be required to turn these off. You can do so via the Project Settings or the config INI.
+
+First, open the project and under project settings change the Engines scalability settings to the one your computer can handle. With the release of UE5, some new rendering features have been enabled. For lower end machines it may be required to turn these off. You can do so via the Project Settings. 
+Secondly, increase the texture streaming pool size from 1000 to 5000
 
 #### DefaultEngine.ini
 ```
@@ -88,7 +89,11 @@ r.Shadow.Virtual.Enable=1 ;virtual shadow maps
 DefaultGraphicsRHI=DefaultGraphicsRHI_DX12 // Use DX12 for new rendering features above
 ```
 
-**Game Assets:** Licensed for use with the Unreal Engine only. 
+**Game Assets:** 
+
+Licensed for use with the Unreal Engine only.
+1. Castle assets from the Unreal marketplace
+2. Various mega scans assets (You can change these to the ones you desire as they are mainly plants and foliage
 Without a custom license you cannot use to create sequels, remasters, or otherwise emulate the original game or use the original game’s trademarks, character names, or other IP to advertise or name your game. 
 (Unreal Engine EULA applies) 
 (Please note this applies to the Game Assets that refer to Electric Dreams, you can still use the project code and content to build your own Unreal Engine game)
