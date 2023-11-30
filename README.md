@@ -51,13 +51,15 @@ Once the project is built, click the "Play" button to launch the web-based car r
 
 ## Prerequisites
 - Unreal Engine 5.1 or later.
+- Visual Studio 2022 set up for unreal engine
+- Quixel Bridge set up in Unreal Engine 
 - A basic understanding of C++ programming, as Unreal Engine's Blueprints visual scripting system is built upon C++ concepts.
 - Familiarity with ray tracing concepts and techniques.
 - A basic understanding of physics engines and their application in game development.
 
 ### Running the Game
 
-**Open Editor:** Launch the Unreal Engine Editor and select the project you want to run. You can optionally open the project, particularly the source file to access the C++ code preferrably in Visual Studio. {The .uasset files ar in inary and can't really be opened}
+**Open Editor:** Launch the Unreal Engine Editor and select the project you want to run. You can optionally open the project, particularly the source file to access the C++ code preferably in Visual Studio. {The .uasset files are in binary and can't be opened}
 
 **Build Project:** Click the "Build" button or press Ctrl+B to build the project for the desired platform, such as Windows, Android, or iOS.
 
@@ -77,7 +79,7 @@ Once the project is built, click the "Play" button to launch the web-based car r
 
 ## Optional Configs
 
-First, open the project and under project settings change the Engines scalability settings to the one your computer can handle. With the release of UE5, some new rendering features have been enabled. For lower end machines it may be required to turn these off. You can do so via the Project Settings. 
+First, open the project and under project settings change the Engines scalability settings to the one your computer can handle. With the release of UE5, some new rendering features have been enabled. For lower-end machines it may be required to turn these off. You can do so via the Project Settings. 
 Secondly, increase the texture streaming pool size from 1000 to 5000
 
 #### DefaultEngine.ini
