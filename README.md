@@ -16,6 +16,7 @@ It also implements a robust physics engine that accurately simulates real-world 
   - [Prerequisites](#prerequisites)
   - [Running the Game](#running-the-game)
 - [Technology Stack](#technology-stack)
+- [Optional Configs](##Optional Configs)
 
 
 ## Introduction
@@ -56,24 +57,35 @@ Once the project is built, click the "Play" button to launch the web-based car r
 
 ### Running the Game
 
-Open Editor: Launch the Unreal Engine Editor and select the project you want to run. You can optionally open the project, particularly the source file to access the C++ code preferrably in Visual Studio. {The .uasset files ar in inary and can't really be opened}
+**Open Editor:** Launch the Unreal Engine Editor and select the project you want to run. You can optionally open the project, particularly the source file to access the C++ code preferrably in Visual Studio. {The .uasset files ar in inary and can't really be opened}
 
-Build Project: Click the "Build" button or press Ctrl+B to build the project for the desired platform, such as Windows, Android, or iOS.
+**Build Project:** Click the "Build" button or press Ctrl+B to build the project for the desired platform, such as Windows, Android, or iOS.
 
-Deploy Game: Deploy it to the target device or emulator. This typically involves copying the packaged game files to the device or emulator's storage.
+**Deploy Game:** Deploy it to the target device or emulator. This typically involves copying the packaged game files to the device or emulator's storage.
 
-Run the Game: On the target device or emulator, locate the game executable file and launch it. The game should start running and you can interact with it using the device's controls or input methods.
+**Run the Game:** On the target device or emulator, locate the game executable file and launch it. The game should start running and you can interact with it using the device's controls or input methods.
 
 ## Technology Stack
 
-- C++ : game implementation
-- Blueprints for visual scripting eg.
+- **C++** : game implementation
+- **Blueprints** for visual scripting eg.
   - Lumen
-- C#: for blueprints scripting and managing third-party plugins
+  - PCG
+  - Auto Materials
+- **C#:** for blueprints scripting and managing third-party plugins
 
 Feel free to reach out with any suggestions!
 
+## Optional Configs
+With the release of UE5, some new rendering features have been enabled. For lower end machines it may be required to turn these off. You can do so via the Project Settings or the config INI.
 
+#### DefaultEngine.ini
+```
+r.ReflectionMethod=1 ;lumen reflection
+r.DynamicGlobalIlluminationMethod=1 ;lumen global illumination
+r.Shadow.Virtual.Enable=1 ;virtual shadow maps
+[/Script/WindowsTargetPlatform.WindowsTargetSettings]
+DefaultGraphicsRHI=DefaultGraphicsRHI_DX12 // Use DX12 for new rendering features above
+```
 
-
-
+**Game Assets:** Licensed for use with the Unreal Engine only. Without a custom license you cannot use to create sequels, remasters, or otherwise emulate the original game or use the original game’s trademarks, character names, or other IP to advertise or name your game. (Unreal Engine EULA applies) (Please note this applies to the Game Assets that refer to Epic's Paragon, you can still use the project code and content to build your own Unreal Engine game)
